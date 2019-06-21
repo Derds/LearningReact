@@ -15,7 +15,7 @@ function shuffleAdjectives(array) {
 function ARandomJakeBerg(){
   const adjectiveList = ["large", "big", "smiley", "[s t u p i d]", "red", "orange", "yellow", "green", "blue", "purple", "pink", "glittery", "teeny", "* t i n y *", "frowny", "excellent", "bad"];
   const chosenAdjective = adjectiveList[Math.floor(Math.random() * adjectiveList.length)];
-  <JakeBerg adjective={chosenAdjective}></JakeBerg>
+  return (<JakeBerg adjective={chosenAdjective}></JakeBerg>);
 }
 
 function JakeBerg(props){
