@@ -15,7 +15,7 @@ function App() {
         <p>
           HELLO WORLD
         </p>
-        <JakeBerg adjective="smiley"></JakeBerg>
+        <JakeBerg adjective="Large"></JakeBerg>
       </header>
     </div>
   );
